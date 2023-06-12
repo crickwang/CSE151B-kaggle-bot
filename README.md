@@ -29,6 +29,8 @@ This file will be given all fitted models, and print the loss of each model. Thi
 ### 4th File: Combining models
 Given the dataset with 5 columns, this file will fit the linear regression model to combine the predictions of the 5 models. It will output the combined prediction. It will also train in the combine MLP model to generate the ultimate prediction of the public test set. This file is basically the 5th file with the training part. 
 
-__Note:__ Please have lightGMB installed in your environment. If not, use ``conda install lightgbm`` in conda environment or ``pip install lightgbm`` in virtual environment.
+__Note:__ Please have lightGMB installed in your environment. If not, use ``conda install lightgbm`` in conda environment or ``pip install lightgbm`` in virtual environment. 
+Please have scokit plot installed in your environment. If not, use ``conda install scikit-plot`` in conda environment or ``pip install scikit-plot`` in virtual environment.
+Please have seaborn installed in your environment. If not, use ``conda install seaborn`` in conda environment or ``pip install seaborn`` in virtual environment.
 
 
