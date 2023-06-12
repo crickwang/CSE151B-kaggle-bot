@@ -15,7 +15,7 @@ https://drive.google.com/drive/folders/1D_9pKgQSdpKuTPPXH6duxz3vAVviT22P?usp=sha
 Given the current files in the github and dropbox, you should be able to run the 5th jupyter notebook file named just run without trainning anything. All of the models and data has been created. You can just run the code and it will output the predictions. However, if you want to try to run something else like machine learning algorithms or different models, you can run the other jupyter notebook files. The order is from first to last. 
 
 ### 5th File: Just Run
-Like we said above, you can run this file without training anything. 
+Like we said above, you can run this file and generate the final combined model with MLP output (the 320 rows test file) without training anything. This is the best model we submitted to kaggle. 
 
 ### 1st File: Data Processing
 This file will process the raw training data using multiple strategies. It will output the processed one-hot encoded data with 589 columns. The output file is in csv format. 
@@ -28,5 +28,7 @@ This file will be given all fitted models, and print the loss of each model. Thi
 
 ### 4th File: Combining models
 Given the dataset with 5 columns, this file will fit the linear regression model to combine the predictions of the 5 models. It will output the combined prediction. It will also train in the combine MLP model to generate the ultimate prediction of the public test set. This file is basically the 5th file with the training part. 
+
+__Note:__ Please have lightGMB installed in your environment. If not, use ``conda install lightgbm`` in conda environment or ``pip install lightgbm`` in virtual environment.
 
 
